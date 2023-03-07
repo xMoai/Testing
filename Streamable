@@ -640,7 +640,7 @@ getgenv().Aiming = {
 
     VisibleCheck = true,
     
-    HitChance = 100,
+    HitChance = Settings.SilentAim.HitChance,
 
     Selected = nil,
     SelectedPart = nil,
