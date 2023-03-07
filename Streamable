@@ -593,7 +593,7 @@ RService.Heartbeat:Connect(
 
 if Settings.SilentAim.Silent and Settings.Main.Enable == true then
      -- // Dependencies
-local Aiming = loadstring(game:HttpGet("https://pastebin.com/raw/FbQ8vF4t"))()
+local Aiming = loadstring(game:HttpGet("https://pastebin.com/raw/R8e6Q8vU"))()
 Aiming.TeamCheck(false)
 -- // Services
 local Workspace = game:GetService("Workspace")
