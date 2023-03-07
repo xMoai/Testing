@@ -593,8 +593,13 @@ RService.Heartbeat:Connect(
 
 if Settings.SilentAim.Silent and Settings.Main.Enable == true then
      -- // Dependencies
-local Aiming = loadstring(game:HttpGet("https://pastebin.com/raw/R8e6Q8vU"))()
+local Aiming = loadstring(game:HttpGet("https://pastebin.com/raw/uJRg6cHx"))()
 Aiming.TeamCheck(false)
+Aiming.ShowFOV = Settings.SilentFov.Fov
+Aiming.FOV = Settings.SilentFov.Size
+Aiming.FOVSides = Settings.SilentFov.Sides
+Aiming.FOVColour = Settings.SilentFov.Colour
+Aiming.FOVThickness = Settings.SilentFov.Thickness
 -- // Services
 local Workspace = game:GetService("Workspace")
 local Players = game:GetService("Players")
