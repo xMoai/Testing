@@ -600,7 +600,7 @@ if Settings.SilentAim.Resolver and Settings.Main.Enable == true then
 end
 
 if Settings.SilentAim.NearestHitPart and Settings.Main.Enable == true then
-    print('In testing')
+    error('In testing')
 end
 
 if Settings.Spoof.Memorey and Settings.Main.Enable == true then
