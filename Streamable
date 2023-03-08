@@ -595,11 +595,11 @@ if Settings.SilentAim.Silent and Settings.Main.Enable == true then
     print('silent aim testing!')
 end
 
-if Settings.SilentAim.Resolver and Settings.Main.Enable == true then
+if Settings.SilentAim.Resolver and Settings.SilentAim.Silent and Settings.Main.Enable == true then
     print('Resolver testing')
 end
 
-if Settings.SilentAim.NearestHitPart and Settings.Main.Enable == true then
+if Settings.SilentAim.NearestHitPart and Settings.SilentAim.Silent and Settings.Main.Enable == true then
     print('In testing')
 end
 
