@@ -593,9 +593,13 @@ RService.Heartbeat:Connect(
 
 if Settings.SilentAim.Silent and Settings.Main.Enable == true then
     print('silent aim testing!')
-elseif Settings.SilentAim.Resolver and Settings.Main.Enable == true then
+end
+
+if Settings.SilentAim.Resolver and Settings.Main.Enable == true then
     print('Resolver testing')
-elseif Settings.SilentAim.NearestHitPart and Settings.Main.Enable == true then
+end
+
+if Settings.SilentAim.NearestHitPart and Settings.Main.Enable == true then
     print('In testing')
 end
 
